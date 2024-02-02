@@ -1,0 +1,118 @@
+header, footer{
+  background-color: aliceblue;
+}
+body{
+  background-color: aliceblue;
+}
+
+main{
+  background-color: #04AA6D;
+}
+h1{
+  font-family: 'Lucida Sans Regular';
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 38px 16px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #04AA6D;
+}
+
+li:last-child {
+  border-right: none;
+}
+p{
+  font-size: 22px;
+  font-family: fantasy;
+}
+.imgcentrada{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex-horizontal {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 0px;
+  vertical-align: middle;
+}
+.flex-vertical{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.a-chiquitito{
+font-size: 14px;
+}
+.redondo{
+  border: 2px solid;
+  border-radius: 8px; ;
+  background-color: aliceblue;
+  text-align: center;
+  width: 35%;
+}
+.main2{
+  background-color: aliceblue
+}
+.body2{
+  background-color: aliceblue;
+}
+.contactoo{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 0px;
+  vertical-align: middle;
+}
+.pchiquito{
+  font-size: 12px;
+}
+.pabout{
+  font-size: 20px;
+  text-align: center;
+  width: 600px;
+}
+
+/*Efecto imagen
+.ordenadores:hover .image {
+  opacity: 0.3;
+}
+.image {
+  opacity: 1;s
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.ordenadores {
+  position: relative;
+  width: 50%;
+}
+*/
